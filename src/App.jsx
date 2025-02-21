@@ -1,14 +1,13 @@
-import { Router } from "react-router-dom";
-import Home from "./pages/Home";
+import Router from "./shared/Router";
+
 
 function App() {
 
 
   return (
-      <div>
-        {/* <Router /> */}
-        <Home />
-      </div>
+    <div>
+      <Router />
+    </div>
   )
 }
 
