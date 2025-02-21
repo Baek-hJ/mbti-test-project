@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 
 const Home = () => {
   return (
@@ -19,6 +20,9 @@ const Home = () => {
         <p>팀 내에서 자신과 동료들의 성격을 이해하고 협력할 수 있는 방법을 배워보세요.</p>
       </section>
       <button>내 성격 알아보러 가기</button>
+      <Link to="/Login">
+      로그인
+      </Link>
     </div>
   )
 }
