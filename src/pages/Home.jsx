@@ -21,7 +21,7 @@ const Home = () => {
       </section>
       <button>내 성격 알아보러 가기</button>
       <Link to="/Login">
-      로그인
+        로그인
       </Link>
     </div>
   )
