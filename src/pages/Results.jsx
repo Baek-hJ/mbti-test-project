@@ -1,7 +1,9 @@
 
 const Results = () => {
     return (
-        <div>results</div>
+        <div>
+            <h1>테스트 결과 페이지</h1>
+        </div>
     )
 }
 
