@@ -1,27 +1,22 @@
-import { BrowserRouter, Route, Routes } from 'react-router-dom';
-import Home from '../pages/Home';
-import Signup from '../pages/Signup';
-import Login from '../pages/login';
-import Profile from '../pages/Profile';
-import Test from '../pages/test';
-import Results from '../pages/results';
-
+import { Routes, Route } from "react-router-dom";
+import Home from "../pages/Home";
+import Signup from "../pages/Signup";
+import Profile from "../pages/Profile";
+import Test from "../pages/Test";
+import Results from "../pages/Results";
+import Login from "../pages/login";
 
 const Router = () => {
   return (
-    <div>
-      <BrowserRouter>
-        <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path='/Signup' element={<Signup />} />
-          <Route path='/Login' element={<Login />} />
-          <Route path='/Profile' element={<Profile />} />
-          <Route path='/Results' element={<Results />} />
-          <Route path='/Test' element={<Test />} />
-        </Routes>
-      </BrowserRouter>
-    </div>
-  )
-}
+    <Routes>
+      <Route path="/" element={<Home />} />
+      <Route path="/signup" element={<Signup />} /> {/* 소문자로 변경 */}
+      <Route path="/login" element={<Login />} />
+      <Route path="/profile" element={<Profile />} />
+      <Route path="/results" element={<Results />} />
+      <Route path="/test" element={<Test />} />
+    </Routes>
+  );
+};
 
 export default Router;
