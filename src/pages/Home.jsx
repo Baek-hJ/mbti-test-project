@@ -9,7 +9,7 @@ const Home = () => {
       <p className="text-lg text-gray-600 text-center mb-8">
         자신의 성격 유형을 확인할 수 있도록 솔직하게 답변해 주세요.
       </p>
-
+      
       <section className="mb-6">
         <h2 className="text-2xl font-semibold text-gray-800 mb-2">성격 유형 검사</h2>
         <p className="text-gray-600">자신의 성격 유형을 파악하고 삶의 여러 영역에서 어떤 영향을 미치는지 알아보세요.</p>
